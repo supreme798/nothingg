@@ -8,8 +8,6 @@ def SniperScopeon():
     try:
        proc = Pymem("HD-Player")
     except:
-       print("Bluestacks is not running.\nFirst start BlueStacks then Activate Bypass")
-
     try:
        if proc:
         print("Activating Sniper Scope", '\n'"Scanning...")
